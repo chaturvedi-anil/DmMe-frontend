@@ -1,0 +1,15 @@
+.message-container{
+    border: 1px solid red;
+    height: 600px ;
+    padding: 10px;
+    overflow: scroll;
+
+    p{
+        background-color:black;
+        opacity: .4;
+        color: white;
+        font-size: 18px;
+        padding: 2px;
+        margin: 2px 1px;
+    }
+}
