@@ -1,7 +1,8 @@
 import { useRef } from 'react'
 
-const roomJoinPage = () => {
-  const roomIdRef = useRef(null);
+//@ts-ignore
+const RoomJoinPage = ({joinChatRoom, roomIdRef}) => {
+  
   return (
     <div>
       <header className="mb-4">
@@ -25,4 +26,4 @@ const roomJoinPage = () => {
   )
 }
 
-export default roomJoinPage
+export default RoomJoinPage
